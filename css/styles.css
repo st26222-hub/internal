@@ -1,0 +1,82 @@
+h1 {
+    color: white;
+    color: rgb(245, 241, 248);      
+    text-align: center;             
+    padding: 20px 0px;             
+    width: 100%;                    
+    margin-top: 0px;     
+    color: blanchedalmond;      
+    font-size: xx-large: 
+    
+}
+.hero-image {
+    background-image: url('background.img.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    min-height: 1000px;
+}
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f5e6d8;
+    color: #4b2633;
+}
+header {
+    height: 90px;
+    background-color: #8b3f52;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    padding: 0 40px;
+}
+
+.logo h1 {
+    color: white;
+    margin: 0;
+    font-size: 32px;
+}
+nav {
+    display: flex;
+    gap: 10px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #4b2633;
+    background-color: white;
+
+    padding: 10px 20px;
+    border-radius: 5px;
+
+    font-weight: bold;
+}
+nav a:hover {
+    background-color: #e8bfc9;
+}
+main {
+    width: 90%;
+    max-width: 1000px;
+    margin: 30px auto;
+}
+
+.intro {
+    background-color: white;
+
+    margin-top: 25px;
+    padding: 30px;
+
+    border-radius: 8px;
+    border: 2px solid #d8aeb9;
+}
+.intro h2 {
+    margin-top: 0;
+    color: #8b3f52;
+    font-size: 28px;
+}
+.intro p {
+    font-size: 17px;
+    line-height: 1.6;
+}
