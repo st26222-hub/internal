@@ -11,18 +11,7 @@ h1 {
 body {
     margin: 0;
 }
-.hero-image {
-    width: 100%;
-    height: 400px;
-    object-fit: cover;
-    display: block;
-}
-body {
-    margin: 0;
-    font-family: Arial, Helvetica, sans-serif;
-    background-color: #f5e6d8;
-    color: #4b2633;
-}
+
 header {
     height: 90px;
     background-color: #8b3f52;
@@ -32,11 +21,6 @@ header {
     padding: 0 40px;
 }
 
-.logo h1 {
-    color: white;
-    margin: 0;
-    font-size: 32px;
-}
 nav {
     display: flex;
     gap: 10px;
@@ -52,24 +36,22 @@ nav a {
 nav a:hover {
     background-color: #e8bfc9;
 }
-main {
-    width: 90%;
-    max-width: 1000px;
-    margin: 30px auto;
+body {
+    margin: 0;
+    background-color: #f5e6d8;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #4b2633;
 }
-.intro {
-    background-color: white;
-    margin-top: 25px;
-    padding: 30px;
-    border-radius: 8px;
-    border: 2px solid #d8aeb9;
+
+.hero {
+    width: 70%;
+    margin: 35px auto;
 }
-.intro h2 {
-    margin-top: 0;
-    color: #8b3f52;
-    font-size: 28px;
-}
-.intro p {
-    font-size: 17px;
-    line-height: 1.6;
+
+.hero img {
+    width: 100%;
+    height: 450px;
+    object-fit: cover;
+    display: block;
+    border-radius: 10px;
 }
