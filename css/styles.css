@@ -58,7 +58,8 @@ p {
     color: rgb(210, 77, 217);
     font-family: "Lato", sans-serif;
 }
-.culture-image{
+.div-culture-image{
     align-items: center;
+    align-content: center;
 }
 
