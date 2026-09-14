@@ -13,7 +13,7 @@ body {
 }
 
 header {
-     font-family: "Oswald", sans-serif;
+    font-family: "Oswald", sans-serif;
     height: 90px;
     background-color: #8b3f52;
     display: flex;
@@ -58,5 +58,7 @@ p {
     color: rgb(210, 77, 217);
     font-family: "Lato", sans-serif;
 }
-
+.culture-image{
+    align-items: center;
+}
 
