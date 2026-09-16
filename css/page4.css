@@ -42,3 +42,88 @@ nav a {
 }
 nav a:hover {
     background-color: #e8bfc9;}
+
+.My-Intro {
+    background-color: #fffaf5;
+    margin: 40px auto;
+    padding: 35px;
+    width: 80%;
+    border-radius: 15px;
+    text-align: center;
+}
+
+.My-Intro h2 {
+    color: #8b3f52;
+    font-size: 32px;
+}
+
+.my-image img {
+    width: 250px;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 15px;
+    border: 5px solid #e8bfc9;
+}
+
+.About-me-text {
+    max-width: 700px;
+    margin: auto;
+}
+
+.About-me-text p {
+    font-size: 17px;
+    line-height: 1.7;
+}
+
+.contact-Info {
+    background-color: #e8bfc9;
+    padding: 40px;
+    text-align: center;
+}
+
+.contact-Info h4 {
+    color: #8b3f52;
+    font-size: 30px;
+}
+
+.Map {
+    width: 90%;
+    margin: 30px auto;
+}
+
+.Map iframe {
+    width: 100%;
+    height: 350px;
+    border-radius: 12px;
+}
+
+.Social-medias {
+    background-color: #fffaf5;
+    padding: 40px;
+    text-align: center;
+}
+
+.Social-medias h5 {
+    color: #8b3f52;
+    font-size: 30px;
+}
+
+.Social.links {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+}
+
+.Social.links a {
+    width: 180px;
+    padding: 12px;
+    background-color: #8b3f52;
+    color: white;
+    text-decoration: none;
+    border-radius: 8px;
+}
+
+.Social.links a:hover {
+    background-color: #e8bfc9;
+}
