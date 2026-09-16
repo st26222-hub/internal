@@ -42,8 +42,8 @@ nav a {
 }
 nav a:hover {
     background-color: #e8bfc9;}
-
-.My-Intro {
+    
+#My-Intro {
     background-color: #fffaf5;
     margin: 40px auto;
     padding: 35px;
@@ -52,7 +52,7 @@ nav a:hover {
     text-align: center;
 }
 
-.My-Intro h2 {
+#My-Intro h2 {
     color: #8b3f52;
     font-size: 32px;
 }
@@ -75,13 +75,13 @@ nav a:hover {
     line-height: 1.7;
 }
 
-.contact-Info {
+#contact-Info {
     background-color: #e8bfc9;
     padding: 40px;
     text-align: center;
 }
 
-.contact-Info h4 {
+#contact-Info h4 {
     color: #8b3f52;
     font-size: 30px;
 }
@@ -97,13 +97,13 @@ nav a:hover {
     border-radius: 12px;
 }
 
-.Social-medias {
+#Social-medias {
     background-color: #fffaf5;
     padding: 40px;
     text-align: center;
 }
 
-.Social-medias h5 {
+#Social-medias h5 {
     color: #8b3f52;
     font-size: 30px;
 }
