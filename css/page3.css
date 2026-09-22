@@ -6,7 +6,7 @@ h1 {
     width: 100%;                    
     margin-top: 0px;     
     color: blanchedalmond;      
-    font-size: xx-large: 
+    font-size: xx-large;
 }
 body {
     margin: 0;
@@ -42,4 +42,142 @@ nav a {
 }
 nav a:hover {
     background-color: #e8bfc9;
+}
+h2 {
+    text-align: center;
+    color: #4b2633;
+    margin: 25px 0;
+}
+
+.hero-image {
+    width: 100%;
+}
+
+.Main-img {
+    width: 90%;
+    margin: 20px auto;
+    position: relative;
+}
+
+.Main-img .main-image {
+    width: 100%;
+    height: 350px;
+    object-fit: cover;
+}
+
+.Main-img h3 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: white;
+    color: #4b2633;
+    padding: 10px 20px;
+    margin: 0;
+    font-size: 16px;
+    white-space: nowrap;
+}
+
+.Main.Foods {
+    text-align: center;
+}
+
+.Main.Foods h4 {
+    color: #4b2633;
+    font-size: 24px;
+    margin: 25px 0;
+}
+
+.Main.Foods + div {
+    width: 90%;
+    margin: auto;
+    display: flex;
+    gap: 15px;
+}
+
+.Main.Foods + div article {
+    flex: 1;
+    background-color: white;
+    text-align: center;
+}
+
+.Main.Foods + div article img {
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+}
+
+.Main.Foods + div article h5 {
+    color: #4b2633;
+    margin: 10px;
+}
+
+.Main.Foods + div article p {
+    color: #4b2633;
+    padding: 0 10px;
+    line-height: 1.4;
+}
+
+.Why-food {
+    width: 90%;
+    margin: 35px auto;
+    background-color: white;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.Why-food h4 {
+    color: #4b2633;
+    margin-top: 0;
+}
+
+.Why-food p {
+    color: #4b2633;
+    line-height: 1.5;
+}
+
+.dessert {
+    width: 90%;
+    margin: 35px auto;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+
+.dessert h6 {
+    width: 100%;
+    text-align: center;
+    color: #4b2633;
+    font-size: 24px;
+    margin: 10px 0;
+}
+
+.dessert > p {
+    width: 100%;
+    text-align: center;
+    color: #4b2633;
+    line-height: 1.5;
+}
+
+.dessert article {
+    flex: 1;
+    background-color: white;
+    text-align: center;
+}
+
+.dessert article img {
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+}
+
+.dessert article h5 {
+    color: #4b2633;
+    margin: 10px;
+}
+
+.dessert article p {
+    color: #4b2633;
+    padding: 0 10px;
+    line-height: 1.4;
 }
