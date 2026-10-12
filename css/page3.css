@@ -59,7 +59,7 @@ h2 {
     position: relative;
 }
 
-.Main-img .main-image {
+.main-image {
     width: 100%;
     height: 350px;
     object-fit: cover;
