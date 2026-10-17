@@ -181,3 +181,71 @@ h2 {
     padding: 0 10px;
     line-height: 1.4;
 }
+@media (max-width: 768px) {
+    header {
+        height: auto;
+        padding: 15px 20px;
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    nav {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .Main-img {
+        width: 95%;
+    }
+
+    .main-image {
+        height: 280px;
+    }
+
+    .Main.Foods + div {
+        flex-wrap: wrap;
+    }
+
+    .Main.Foods + div article {
+        flex: 1 1 40%;
+    }
+
+    .dessert article {
+        flex: 1 1 40%;
+    }
+}
+
+@media (max-width: 480px) {
+    h1 {
+        font-size: 26px;
+        padding: 10px 0;
+    }
+
+    nav a {
+        padding: 8px 12px;
+    }
+
+    .main-image {
+        height: 220px;
+    }
+
+    .Main.Foods + div {
+        flex-direction: column;
+    }
+
+    .Main.Foods + div article {
+        flex: 1 1 100%;
+    }
+
+    .dessert {
+        flex-direction: column;
+    }
+
+    .dessert article {
+        flex: 1 1 100%;
+    }
+
+    .Why-food {
+        padding: 15px;
+    }
+}

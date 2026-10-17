@@ -82,3 +82,50 @@ p {
     padding: 20px;
     border-radius: 9px;
 }
+@media (max-width: 768px) {
+    header {
+        height: auto;
+        padding: 15px 20px;
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    nav {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    p {
+        font-size: 17px;
+        margin: 20px auto;
+    }
+
+    .div-culture-image {
+        max-width: 90%;
+        box-sizing: border-box;
+    }
+
+    .div-culture-image img {
+        max-width: 100%;
+        height: auto;
+    }
+}
+
+@media (max-width: 480px) {
+    h1 {
+        font-size: 26px;
+    }
+
+    nav a {
+        padding: 8px 12px;
+    }
+
+    h2 {
+        max-width: 90%;
+        box-sizing: border-box;
+    }
+
+    p {
+        padding: 15px;
+    }
+}
